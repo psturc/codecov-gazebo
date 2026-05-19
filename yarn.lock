@@ -5423,12 +5423,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/d3-scale@npm:*, @types/d3-scale@npm:4.0.8, @types/d3-scale@npm:^4.0.2":
+"@types/d3-scale@npm:*, @types/d3-scale@npm:^4.0.2":
   version: 4.0.8
   resolution: "@types/d3-scale@npm:4.0.8"
   dependencies:
     "@types/d3-time": "npm:*"
   checksum: 10c0/57de90e4016f640b83cb960b7e3a0ab3ed02e720898840ddc5105264ffcfea73336161442fdc91895377c2d2f91904d637282f16852b8535b77e15a761c8e99e
+  languageName: node
+  linkType: hard
+
+"@types/d3-scale@npm:4.0.9":
+  version: 4.0.9
+  resolution: "@types/d3-scale@npm:4.0.9"
+  dependencies:
+    "@types/d3-time": "npm:*"
+  checksum: 10c0/4ac44233c05cd50b65b33ecb35d99fdf07566bcdbc55bc1306b2f27d1c5134d8c560d356f2c8e76b096e9125ffb8d26d95f78d56e210d1c542cb255bdf31d6c8
   languageName: node
   linkType: hard
 
@@ -9130,7 +9139,7 @@ __metadata:
     "@types/confusing-browser-globals": "npm:^1"
     "@types/d3": "npm:7.4.3"
     "@types/d3-array": "npm:3.2.1"
-    "@types/d3-scale": "npm:4.0.8"
+    "@types/d3-scale": "npm:4.0.9"
     "@types/eslint-plugin-jsx-a11y": "npm:^6.9.0"
     "@types/js-cookie": "npm:3.0.6"
     "@types/lodash": "npm:4.17.6"
