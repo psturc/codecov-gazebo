@@ -187,7 +187,7 @@
     "react-refresh": "^0.14.0",
     "resolve-url-loader/postcss": "8.4.31",
     "micromatch": "^4.0.8",
-    "express": "^4.21.0",
+    "express": "^5.0.0",
     "path-to-regexp@^1.7.0": "^1.9.0",
     "path-to-regexp@^6.2.0": "^6.3.0"
   },
