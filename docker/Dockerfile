@@ -1,4 +1,4 @@
-# syntax = docker/dockerfile:1.3
+# syntax = docker/dockerfile:1.24
 FROM            alpine:3.22 as uploader
 USER            root
 WORKDIR         /tmp
