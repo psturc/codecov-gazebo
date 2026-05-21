@@ -170,7 +170,7 @@
     "vite": "^6.3.2",
     "vite-plugin-ejs": "^1.7.0",
     "vite-plugin-svgr": "^4.3.0",
-    "vite-tsconfig-paths": "^5.1.4",
+    "vite-tsconfig-paths": "^6.0.0",
     "vitest": "^2.1.9"
   },
   "engines": {
