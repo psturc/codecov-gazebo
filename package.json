@@ -180,7 +180,7 @@
     "workerDirectory": "public"
   },
   "volta": {
-    "node": "22.11.0",
+    "node": "22.22.3",
     "yarn": "4.9.2"
   },
   "resolutions": {
