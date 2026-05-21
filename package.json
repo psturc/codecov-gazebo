@@ -185,7 +185,7 @@
   },
   "resolutions": {
     "react-refresh": "^0.14.0",
-    "resolve-url-loader/postcss": "8.4.31",
+    "resolve-url-loader/postcss": "8.5.15",
     "micromatch": "^4.0.8",
     "express": "^4.21.0",
     "path-to-regexp@^1.7.0": "^1.9.0",
