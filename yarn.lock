@@ -4993,11 +4993,11 @@ __metadata:
   linkType: hard
 
 "@tanstack/eslint-plugin-query@npm:^4.38.0":
-  version: 4.38.0
-  resolution: "@tanstack/eslint-plugin-query@npm:4.38.0"
+  version: 4.44.0
+  resolution: "@tanstack/eslint-plugin-query@npm:4.44.0"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 10c0/cf6ee6b8992b37edf6c833755616f1d784449c3300900dbf775cd2b6eba87a7eb86cfb3aa2afb2ff0ef56b70f9e2fa5c8ed5ed498e624fc3d0cea77c18ffe222
+  checksum: 10c0/293d231dd1b42d650cc8a96e3a14362417684a5fe792431df9b489f9ead3a1232cd5fd115d7f8619a85ccb2cbf8808ca01188af4ee6754f022a7f534ce23e385
   languageName: node
   linkType: hard
 
@@ -5010,10 +5010,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:4.36.1":
-  version: 4.36.1
-  resolution: "@tanstack/query-core@npm:4.36.1"
-  checksum: 10c0/f286529dbd4c9cdb237ef0bfa72d785c74b5d0958290e8d85c343043ba7be4bbc6cb771167d8c13ca12bd4f37412a3d8b69331f57daa375b2071fd4752aed66a
+"@tanstack/query-core@npm:4.44.0":
+  version: 4.44.0
+  resolution: "@tanstack/query-core@npm:4.44.0"
+  checksum: 10c0/6b8967cbe756d105a43f1ce6e11cf3ba52697c8a53d5780fd5cd234cda6dbe22b6e0a8902af8c891fd3c9daadd7f238a9325f5bbd1bcab4abc4e58a80320882e
   languageName: node
   linkType: hard
 
@@ -5025,36 +5025,36 @@ __metadata:
   linkType: hard
 
 "@tanstack/react-query-devtools@npm:^4.29.6":
-  version: 4.36.1
-  resolution: "@tanstack/react-query-devtools@npm:4.36.1"
+  version: 4.44.0
+  resolution: "@tanstack/react-query-devtools@npm:4.44.0"
   dependencies:
     "@tanstack/match-sorter-utils": "npm:^8.7.0"
     superjson: "npm:^1.10.0"
     use-sync-external-store: "npm:^1.2.0"
   peerDependencies:
-    "@tanstack/react-query": ^4.36.1
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/7b5f31a90474bf45fce627d6831537a8a8e2fe5b588e9149ca00af3c443d1eed772c55bbbf1093071a29bf9a8267f662bbc4618a9c98c3225f501f7fa1cfa958
+    "@tanstack/react-query": ^4.44.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/404a5b822535308ad5de45cc38600bc650fb80cfd7b9eda1dfa2df2bc548ce6cd63b5322bcab44ffc15534295c68855f55facccc47bd5c9d0a00cde070597799
   languageName: node
   linkType: hard
 
 "@tanstack/react-query@npm:^4.29.5":
-  version: 4.36.1
-  resolution: "@tanstack/react-query@npm:4.36.1"
+  version: 4.44.0
+  resolution: "@tanstack/react-query@npm:4.44.0"
   dependencies:
-    "@tanstack/query-core": "npm:4.36.1"
-    use-sync-external-store: "npm:^1.2.0"
+    "@tanstack/query-core": "npm:4.44.0"
+    use-sync-external-store: "npm:^1.6.0"
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-native: "*"
   peerDependenciesMeta:
     react-dom:
       optional: true
     react-native:
       optional: true
-  checksum: 10c0/15d9c98269d52fbdd49f4eb4b077b5d70346f904ea2ae51fd0400949d731afde658919a1143dd849fb50d4c5b6d0ab072e7b313a098ef316dd1c24089653f626
+  checksum: 10c0/42852b4ad6cd1bad1bab5226d30ae5829b3091668e2c0434868309b1dfbc5086f2c2c73bedea2389df18a4725a8a560aca945e597f1c42d91933cb78f294a2fb
   languageName: node
   linkType: hard
 
@@ -14620,6 +14620,15 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 10c0/23b1597c10adf15b26ade9e8c318d8cc0abc9ec0ab5fc7ca7338da92e89c2536abd150a5891bf076836c352fdfa104fc7231fb48f806fd9960e0cbe03601abaf
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "use-sync-external-store@npm:1.6.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/35e1179f872a53227bdf8a827f7911da4c37c0f4091c29b76b1e32473d1670ebe7bcd880b808b7549ba9a5605c233350f800ffab963ee4a4ee346ee983b6019b
   languageName: node
   linkType: hard
 
