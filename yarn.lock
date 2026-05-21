@@ -5185,10 +5185,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@total-typescript/ts-reset@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "@total-typescript/ts-reset@npm:0.4.2"
-  checksum: 10c0/548b9b4182995bf78b21ff660b57422c4130fc9414a4e83f20873deaac19a53db91ccbeae5d7383fdbe9cf150e89668e95c0496fcadf1b884c74b9c7cdd03751
+"@total-typescript/ts-reset@npm:^0.6.0":
+  version: 0.6.1
+  resolution: "@total-typescript/ts-reset@npm:0.6.1"
+  checksum: 10c0/c42c592054d33e86ac870065820888f89f05e47b2cfbc6bed95f3084b1f6d13b0231b5b8577eabf461aeb3f37c63ae3216f343b573f7136766eb750aac0dd1ab
   languageName: node
   linkType: hard
 
@@ -9126,7 +9126,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:^6.4.2"
     "@testing-library/react": "npm:^16.0.0"
     "@testing-library/user-event": "npm:^14.5.2"
-    "@total-typescript/ts-reset": "npm:^0.4.2"
+    "@total-typescript/ts-reset": "npm:^0.6.0"
     "@types/confusing-browser-globals": "npm:^1"
     "@types/d3": "npm:7.4.3"
     "@types/d3-array": "npm:3.2.1"
