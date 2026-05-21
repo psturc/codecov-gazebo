@@ -7522,10 +7522,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^3.6.0":
-  version: 3.6.0
-  resolution: "date-fns@npm:3.6.0"
-  checksum: 10c0/0b5fb981590ef2f8e5a3ba6cd6d77faece0ea7f7158948f2eaae7bbb7c80a8f63ae30b01236c2923cf89bb3719c33aeb150c715ea4fe4e86e37dcf06bed42fb6
+"date-fns@npm:^4.0.0":
+  version: 4.2.1
+  resolution: "date-fns@npm:4.2.1"
+  checksum: 10c0/1694c57a180a76c1001401fde85925cebb3b89594d37625063be0a571eddde278a87d3c76ecad5759c3dbeabcc34a5c5757eb6b3487d89a9a61ef48571791166
   languageName: node
   linkType: hard
 
@@ -9167,7 +9167,7 @@ __metadata:
     d3-selection: "npm:^3.0.0"
     d3-shape: "npm:^3.2.0"
     d3-transition: "npm:^3.0.1"
-    date-fns: "npm:^3.6.0"
+    date-fns: "npm:^4.0.0"
     date-fns-tz: "npm:^3.1.3"
     dompurify: "npm:^2.3.8"
     downshift: "npm:^7.6.0"
