@@ -105,9 +105,9 @@ __metadata:
   linkType: hard
 
 "@amplitude/analytics-types@npm:^2.8.4":
-  version: 2.8.4
-  resolution: "@amplitude/analytics-types@npm:2.8.4"
-  checksum: 10c0/5261cdf18f6ccd9455f8642c512090aea98e17108cc153115a3d5d2406267d591d124e7ae876213ace0f8836d4d808edb8e904498c99404f1856a6c3e957d2ae
+  version: 2.11.1
+  resolution: "@amplitude/analytics-types@npm:2.11.1"
+  checksum: 10c0/620fd98abcfa9569dd8897c0af0b7b15b83208fbb9c37a0c5905d0e358fe28552596efa2e80698150ae208ff00ed548ad1ba573452e68cf9522cc2870bbf2c19
   languageName: node
   linkType: hard
 
