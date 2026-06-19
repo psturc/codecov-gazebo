@@ -1,4 +1,4 @@
-FROM alpine:3.23 AS uploader
+FROM alpine:3.24 AS uploader
 USER root
 WORKDIR /tmp
 RUN apk -U add gpg gpg-agent curl
@@ -51,7 +51,7 @@ RUN yarn install
 RUN yarn build && rm -f build/mockServiceWorker.js
 
 
-FROM alpine:3.23
+FROM alpine:3.24
 ARG REACT_APP_CODECOV_VERSION
 ARG ENVIRONMENT
 ARG COMMIT_SHA
