@@ -72,19 +72,19 @@ COPY docker/nginx-no-ipv6.conf /etc/nginx/nginx-no-ipv6.conf.template
 RUN  addgroup -S application \
   && adduser -D -u 1000 -S codecov -G application
 
-COPY --chown=codecov:application docker/start-nginx.sh /usr/bin/start-nginx
+COPY --chown=1000:0 docker/start-nginx.sh /usr/bin/start-nginx
 
-RUN chown -R codecov:application /var/www/app && \
-  chown -R codecov:application /run && \
-  chown -R codecov:application /var/lib/nginx && \
-  chown -R codecov:application /var/log/nginx && \
+RUN chown -R 1000:0 /var/www/app && chmod -R g+rwx /var/www/app && \
+  chown -R 1000:0 /run && chmod -R g+rwx /run && \
+  chown -R 1000:0 /var/lib/nginx && chmod -R g+rwx /var/lib/nginx && \
+  chown -R 1000:0 /var/log/nginx && chmod -R g+rwx /var/log/nginx && \
   chmod +x /usr/bin/start-nginx && \
-  chown codecov:application /etc/nginx/nginx.conf
+  chown 1000:0 /etc/nginx/nginx.conf && chmod g+rw /etc/nginx/nginx.conf
 USER codecov
 
 WORKDIR /var/www/app
-COPY --from=build --chmod=755 --chown=codecov:application /home/workspace/build/ /var/www/app/gazebo
-COPY --from=uploader --chown=codecov:application /tmp/uploader/ /var/www/uploader/
+COPY --from=build --chmod=775 --chown=1000:0 /home/workspace/build/ /var/www/app/gazebo
+COPY --from=uploader --chown=1000:0 /tmp/uploader/ /var/www/uploader/
 
 EXPOSE 8080
 CMD ["/usr/bin/start-nginx"]
