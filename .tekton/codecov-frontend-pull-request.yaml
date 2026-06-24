@@ -96,7 +96,8 @@ spec:
         tools. Multiple values should be separated with commas.
       name: sast-target-dirs
       type: string
-    - default: []
+    - default:
+        - REACT_APP_ENV_ARG=enterprise
       description: Array of --build-arg values ("arg=value" strings) for buildah
       name: build-args
       type: array
