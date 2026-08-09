@@ -6,8 +6,8 @@ __metadata:
   cacheKey: 10c0
 
 "@acemarke/react-prod-sourcemaps@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "@acemarke/react-prod-sourcemaps@npm:0.3.1"
+  version: 0.3.2
+  resolution: "@acemarke/react-prod-sourcemaps@npm:0.3.2"
   dependencies:
     "@ampproject/remapping": "npm:^2.2.1"
     "@jridgewell/resolve-uri": "npm:^3.1.1"
@@ -17,7 +17,7 @@ __metadata:
     yargs: "npm:^17.7.2"
   bin:
     react-prod-sourcemaps: lib/index.cjs
-  checksum: 10c0/e0496a540691787ed12ddc781b5105e4719fa0a4c5a1d215b0f91156809473ad275669231cc958b62a1df3b634f788417087738d8288801d1932b35f4035bc4c
+  checksum: 10c0/613c324000a692f6934a92c8603983d437eb54cb5ac672b0428c995b43d52b36b07abf97f844e22b8b4baaf7a7fbfc6bfcaf02a0638b5b63c63f18f95e83d708
   languageName: node
   linkType: hard
 
