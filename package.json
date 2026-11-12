@@ -87,7 +87,7 @@
     "react-use": "^17.2.4",
     "recharts": "^2.15.3",
     "tailwind-merge": "^2.3.0",
-    "zod": "^3.21.4"
+    "zod": "^4.0.0"
   },
   "devDependencies": {
     "@acemarke/react-prod-sourcemaps": "^0.3.1",
